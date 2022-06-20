@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+1.  1.  Пользователь: интерфейс понятен и логичен, отсутствие критических недоработок и ошибок.
+    2.  Менеджер проекта: грамотно прописанная семантическая вёрстка для продвижения сайта в поисковых сервисах, правильно структурированный код с возможностью на дальнейшее масштабирование
+    3.  Дизайнер: дизайн сайта выполнен в одном стиле, интуитивное расположение интерактивных элементов на странице
+    4.  Верстальщик: всё содержимое сайта минимизировано, соблюдены все правила семантической вёрстки, код оформлен в общепринятых стандартах
+    5.  Клиентский программист: правильное оформление html-дерева, понятные наименования у классов и идентификаторов элементов.
+    6.  Серверный программист: работа клиентской части сайта максимально оптимизирована
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2.  Особенность многостраничных сайтов - наличие огромного количества повторяющихся элементов. При помощи методологии БЭМ, мы можем создавать обособленные элементы на странице и затем повторно использовать их в любой части сайта. Благодаря React, мы можем создавать переиспользуемые компоненты с уже прописанной логикой, тем самым ускоряя разработку многостраничных сайтов в разы. Также можно использовать систему контроля версий.
 
-## Available Scripts
+3.  Каждую свою работу стараюсь адаптировать под все типы устройств. На своей практике использовал: резиновую вёрстку и вёрстку через media-запросы.
 
-In the project directory, you can run:
+4.  CSS-препроцессоры(использую Sass), React, сборщики проектов, npm, Emmet и другие расширения, сниппеты, ну и Google, конечно же - всё это помогает мне писать код намного быстрее. Для отладки использую ESLint, JSLint, встроенные инструменты браузера. Также проверяю HTML-разметку через валидатор.
 
-### `npm start`
+5.  С подобной проблемой не сталкивался, поэтому могу только предполагать. Скорее всего, в вёрстке использовались технологии неподдерживаемые в данных браузерах. Если доступа к исходникам нет, то код можно изучить во встроенных инструментах браузера и проверить его на наличие ошибок.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6.  Уточнить у дизайнера, как именно должен выглядеть интерактив. Если дизайнер по каким-либо причинам недоступен, а сроки поджимают, то придумаю эффекты сам, опираясь на работы других дизайнеров.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+7.  В обучении пользуюсь официальной документацией, онлайн-курсами от разных авторов и школ, форумами, участвую в различных челленджах по разработке фронта(devChallanges.io и другие). Решаю задачи на CodeWars для развития алгоритмического мышления. Читаю литературу по JavaScript от таких авторов, как: Джон Резиг и Кайл Симпсон. Во фронт-енд разработке мне нравится буквально всё, но самое интересное для меня - писать логику на JS.
 
-### `npm test`
+Параллельно увлекаюсь разработкой игр и написанием музыки.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Прилагаю ссылку на своё портфолио с примерами работ, их репозиториями, и кратким описанием своего опыта:

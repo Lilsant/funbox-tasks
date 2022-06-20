@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import CardsWrapper from "./components/CardsWrapper/CardsWrapper";
+import "./App.css";
+export default function App() {
+  const cardsData = [
+    {
+      ingredient: "фуа-гра",
+      list: ["10 порций", "мышь в подарок"],
+      weight: 0.5,
+      isDisabled: false,
+      selectedPhrase: "Печень утки разварная с артишоками.",
+    },
+    {
+      ingredient: "рыбой",
+      list: ["40 порций", "2 мыши в подарок"],
+      weight: 2,
+      isDisabled: false,
+      selectedPhrase: "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    },
+    {
+      ingredient: "курой",
+      list: ["100 порций", "5 мышей в подарок", "заказчик доволен"],
+      weight: 2,
+      isDisabled: true,
+      selectedPhrase: "Филе из цыплят с трюфелями в бульоне.",
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <CardsWrapper cardsData={cardsData} />
     </div>
   );
 }
-
-export default App;
