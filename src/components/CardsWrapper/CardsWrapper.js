@@ -4,7 +4,7 @@ import "./CardsWrapper.css";
 
 export default function CardsWrapper({ cardsData }) {
   const cards = cardsData.map((card, i) => {
-    return <Card cardData={card} />;
+    return <Card key={i} cardData={card} />;
   });
   return (
     <>
